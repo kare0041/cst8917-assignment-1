@@ -162,7 +162,5 @@ For deployment to Azure, we revert `StoreMetadata` to use the native Azure SQL o
 2.  **Monitor Logs**: Go to your Function App in the Azure Portal, then navigate to **"Log stream"** under "Monitoring". Observe the execution logs for `BlobTriggerClient`, `OrchestratorFunction`, `ExtractMetadata`, and `StoreMetadata` to confirm successful execution.
 3.  **Verify SQL Database**: Access your Azure SQL Database via the Azure Portal's **"Query editor (preview)"**. Log in and run `SELECT * FROM ImageMetadata;` to confirm that the extracted image metadata has been successfully inserted into the table.
 
-## Submission
-
-* **GitHub Repository URL**: [Your GitHub Repository URL Here]
-* **YouTube Demo Link**: [Your YouTube Demo Video Link Here (Max 5 minutes)]
+## YouTube Demo Link
+[Your YouTube Demo Video Link Here (Max 5 minutes)]
