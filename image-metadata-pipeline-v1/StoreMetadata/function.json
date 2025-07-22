@@ -1,0 +1,17 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "metadata",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "outputSql",
+      "type": "sql",
+      "direction": "out",
+      "commandText": "dbo.ImageMetadata",
+      "connectionStringSetting": "SqlConnectionString"
+    }
+  ]
+}

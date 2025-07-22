@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "maxConcurrentActivityFunctions": 10,
+      "maxConcurrentOrchestratorFunctions": 10,
+      "storageProvider": {
+        "connectionStringSetting": "AzureWebJobsStorage"
+      }
+    },
+    "queues": {
+      "maxPollingInterval": "00:00:02",
+      "visibilityTimeout": "00:00:05",
+      "batchSize": 32,
+      "maxDequeueCount": 5
+    },
+    "blobs": {
+      "maxDegreeOfParallelism": 8
+    }
+  }
+}
