@@ -153,4 +153,4 @@ This deployment also utilizes `pyodbc` for SQL connectivity, so the ODBC driver 
 3.  **Verify SQL Database**: Access your Azure SQL Database via the Azure Portal's **"Query editor (preview)"**. Log in and run `SELECT * FROM ImageMetadata;` to confirm that the extracted image metadata has been successfully inserted into the table.
 
 ## YouTube Demo Link
-[Your YouTube Demo Video Link Here (Max 5 minutes)]
+https://youtu.be/un5cD-dJu40
